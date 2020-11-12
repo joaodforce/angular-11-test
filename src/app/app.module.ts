@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FreBaseComponentsModule } from 'fre-base-components';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    FreBaseComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
